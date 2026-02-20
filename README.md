@@ -19,6 +19,12 @@
 streamlit run dashboard.py
 - **대시보드 실행**:  
 (브라우저에서 http://localhost:8501 열림)
+## How to Run the Demo
+1. Install dependencies
+   pip install streamlit pandas numpy scikit-learn xgboost joblib kafka-python
+2. Run dashboard
+   streamlit run dashboard.py
+3. Open http://localhost:8501 in browser
 
 python analyzer.py
 - **분석기 실행** (Kafka 데이터 처리):
