@@ -15,4 +15,34 @@
 - Streamlit 대시보드 시각화
 
 ## Demo
+
+streamlit run dashboard.py
 - **대시보드 실행**:  
+(브라우저에서 http://localhost:8501 열림)
+
+python analyzer.py
+- **분석기 실행** (Kafka 데이터 처리):
+- (Kafka 토픽에 데이터 넣으면 DSI 점수 출력)
+
+## 설치 및 실행 방법
+1. 의존성 설치
+
+pip install kafka-python pandas xgboost joblib scikit-learn streamlit
+2. 더미 모델 생성 (필요 시)  
+
+python train_and_save_dummy_model.py
+3. Docker + Kafka 실행 (선택)  
+
+docker-compose up -d
+
+## 아키텍처 다이어그램
+![Architecture Diagram](docs/architecture.png)  
+(draw.io로 그린 이미지 첨부 – 아직 없으면 간단히 만들어 업로드하세요)
+
+## 다음 단계
+- V-Dem 데이터셋 통합  
+- 실시간 Kafka 스트림 완성  
+- 오픈소스 커뮤니티 기여 유치
+
+이 PoC는 Mozilla Democracy x AI Cohort 2026 제출용 프로토타입입니다.  
+피드백 환영합니다!
