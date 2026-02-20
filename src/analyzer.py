@@ -12,9 +12,13 @@ TOPIC = 'worldbank_gdp'  # 예시 토픽
 MODEL_PATH = 'models/dsi_model.pkl'  # 학습된 모델 파일
 
 # 모델 로드 (실제로는 미리 학습된 모델 사용)
-model = joblib.load(MODEL_PATH)
-scaler = MinMaxScaler()  # 정규화용 (피팅은 학습 시 미리 완료)
+# In analyzer.py
+model = joblib.load('models/dsi_model.pkl')
+scaler = joblib.load('models/scaler.pkl')
 
+# ...
+scaled_features = scaler.transform(features)
+dsi_score = model.predict(scaled_features)[0]
 def process_message(message):
     try:
         data = json.loads(message.value.decode('utf-8'))
