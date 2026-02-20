@@ -46,3 +46,6 @@ docker-compose up -d
 
 이 PoC는 Mozilla Democracy x AI Cohort 2026 제출용 프로토타입입니다.  
 피드백 환영합니다!
+
+## Demo Screenshot
+<image-card alt="G-DIAS Dashboard" src="gdias-dashboard-demo.png" ></image-card>
