@@ -4,3 +4,7 @@
 현재 상태: PoC (샘플 데이터 ingestion → 기본 DSI 계산 → Streamlit dashboard)
 실행 방법: docker-compose up, streamlit run dashboard.py 등
 아키텍처 다이어그램 (draw.io로 간단히 그려 이미지 첨부)
+
+pip install kafka-python pandas xgboost joblib scikit-learn
+모델 파일(dsi_model.pkl)과 scaler를 미리 준비 (PoC용 더미 모델 생성 가능)
+python analyzer.py 실행 → Kafka 토픽에 데이터 넣으면 점수 출력
