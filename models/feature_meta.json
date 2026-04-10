@@ -1,0 +1,64 @@
+{
+  "all_features": [
+    "v2xel_frefair",
+    "v2x_suffr",
+    "v2elintmon",
+    "v2elirreg",
+    "v2juhcind",
+    "v2juncind",
+    "v2jucomp",
+    "v2jupack",
+    "v2mecenefi",
+    "v2merange",
+    "v2mebias",
+    "v2mecrit",
+    "v2xcs_ccsi",
+    "v2cseeorgs",
+    "v2cscnsult",
+    "v2csreprss",
+    "v2x_execorr",
+    "v2exrescon",
+    "v2lgoppart",
+    "v2lginvstp"
+  ],
+  "dimension_weights": {
+    "electoral": 0.25,
+    "judicial": 0.22,
+    "media": 0.18,
+    "civil": 0.18,
+    "exec_constraints": 0.17
+  },
+  "vdem_feature_map": {
+    "electoral": {
+      "v2xel_frefair": "선거 자유·공정성 지수",
+      "v2x_suffr": "보통선거권 지수",
+      "v2elintmon": "선거 독립 감시",
+      "v2elirreg": "선거 불규칙성 역수"
+    },
+    "judicial": {
+      "v2juhcind": "고위법원 독립성",
+      "v2juncind": "하위법원 독립성",
+      "v2jucomp": "사법부 인사 독립",
+      "v2jupack": "법원 패킹 역수"
+    },
+    "media": {
+      "v2mecenefi": "언론 검열 역수",
+      "v2merange": "언론 다양성",
+      "v2mebias": "미디어 편향 역수",
+      "v2mecrit": "정부 비판 보도 자유"
+    },
+    "civil": {
+      "v2xcs_ccsi": "핵심 시민사회 지수",
+      "v2cseeorgs": "시민단체 활동 자유",
+      "v2cscnsult": "정부-시민사회 협의",
+      "v2csreprss": "시민사회 탄압 역수"
+    },
+    "exec_constraints": {
+      "v2x_execorr": "행정부 부패 역수",
+      "v2exrescon": "행정부 법준수",
+      "v2lgoppart": "의회 반대의견 참여",
+      "v2lginvstp": "입법부 행정부 감사"
+    }
+  },
+  "model_cv_mae": 1.901541256904602
+}

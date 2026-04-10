@@ -1,0 +1,526 @@
+{
+  "fetched_at": "2026-04-10T15:49:08.656169+00:00",
+  "data": {
+    "raw": {
+      "SWE": {
+        "events": {},
+        "articles": []
+      },
+      "DEU": {
+        "events": {},
+        "articles": []
+      },
+      "CAN": {
+        "events": {},
+        "articles": []
+      },
+      "AUS": {
+        "events": {},
+        "articles": []
+      },
+      "FRA": {
+        "events": {},
+        "articles": []
+      },
+      "JPN": {
+        "events": {},
+        "articles": []
+      },
+      "GBR": {
+        "events": {},
+        "articles": []
+      },
+      "KOR": {
+        "events": {},
+        "articles": []
+      },
+      "CHL": {
+        "events": {},
+        "articles": []
+      },
+      "USA": {
+        "events": {},
+        "articles": []
+      },
+      "ZAF": {
+        "events": {},
+        "articles": []
+      },
+      "ARG": {
+        "events": {},
+        "articles": []
+      },
+      "IDN": {
+        "events": {},
+        "articles": []
+      },
+      "SGP": {
+        "events": {},
+        "articles": []
+      },
+      "BRA": {
+        "events": {},
+        "articles": []
+      },
+      "IND": {
+        "events": {
+          "election_integrity": 1
+        },
+        "articles": [
+          {
+            "category": "election_integrity",
+            "title": "  Im here to stand up for him  | Indianapolis woman raises concerns for new citizens voting",
+            "url": "https://www.wthr.com/article/news/local/indianapolis-woman-raises-concerns-for-new-citizens-voting-clerks-office-election/531-8da71339-f43a-4683-aa8c-66cc67633cd2",
+            "date": "20260409T234500Z",
+            "dimension": "electoral"
+          }
+        ]
+      },
+      "MEX": {
+        "events": {},
+        "articles": []
+      },
+      "POL": {
+        "events": {},
+        "articles": []
+      },
+      "NGA": {
+        "events": {},
+        "articles": []
+      },
+      "HUN": {
+        "events": {
+          "election_integrity": 1,
+          "press_freedom": 2
+        },
+        "articles": [
+          {
+            "category": "election_integrity",
+            "title": "Hungary : Orban and opposition trade barbs ahead of election",
+            "url": "https://www.dw.com/en/hungary-orban-and-opposition-trade-barbs-ahead-of-election/a-76737567",
+            "date": "20260410T120000Z",
+            "dimension": "electoral"
+          },
+          {
+            "category": "press_freedom",
+            "title": "Hungary election could end Orbán journey from liberal firebrand to far - right leader",
+            "url": "http://www.bozemandailychronicle.com/ap_news/international/hungarys-election-could-end-orb-ns-journey-from-liberal-firebrand-to-far-right-leader/article_83240745-c813-5d18-9dc2-d102073ff619.html",
+            "date": "20260410T133000Z",
+            "dimension": "media"
+          },
+          {
+            "category": "press_freedom",
+            "title": "Hungary election could end Orbán journey from liberal firebrand to far - right leader",
+            "url": "https://www.goskagit.com/news/world/hungarys-election-could-end-orb-ns-journey-from-liberal-firebrand-to-far-right-leader/article_424e3444-722b-52e1-9c5f-6ae290dd0db8.html",
+            "date": "20260410T123000Z",
+            "dimension": "media"
+          }
+        ]
+      },
+      "TUR": {
+        "events": {},
+        "articles": []
+      },
+      "EGY": {
+        "events": {},
+        "articles": []
+      },
+      "RUS": {
+        "events": {
+          "press_freedom": 1
+        },
+        "articles": [
+          {
+            "category": "press_freedom",
+            "title": "Russian raid on Novaya Gazeta detains journalist",
+            "url": "https://www.journalismpakistan.com/russian-raid-on-novaya-gazeta-detains-journalist",
+            "date": "20260410T101500Z",
+            "dimension": "media"
+          }
+        ]
+      },
+      "CHN": {
+        "events": {
+          "election_integrity": 1
+        },
+        "articles": [
+          {
+            "category": "election_integrity",
+            "title": "Trump Shares Bombshell Post : U . S . Crushes China Cheap Sanctioned Oil Scheme After Iran , Venezuela Moves",
+            "url": "https://www.ibtimes.com.au/trump-shares-bombshell-post-us-crushes-chinas-cheap-sanctioned-oil-scheme-after-iran-venezuela-1866030",
+            "date": "20260410T084500Z",
+            "dimension": "electoral"
+          }
+        ]
+      },
+      "UKR": {
+        "events": {},
+        "articles": []
+      },
+      "ISR": {
+        "events": {
+          "press_freedom": 1
+        },
+        "articles": [
+          {
+            "category": "press_freedom",
+            "title": "Israele ha ucciso in Libano sei reporter in due settimane : un giornalisticidio in piena regola",
+            "url": "https://www.ilfattoquotidiano.it/2026/04/10/uccisione-giornalisti-gaza-libano-news/8351628/",
+            "date": "20260410T134500Z",
+            "dimension": "media"
+          }
+        ]
+      },
+      "IRN": {
+        "events": {
+          "election_integrity": 1
+        },
+        "articles": [
+          {
+            "category": "election_integrity",
+            "title": "Trump Shares Bombshell Post : U . S . Crushes China Cheap Sanctioned Oil Scheme After Iran , Venezuela Moves",
+            "url": "https://www.ibtimes.com.au/trump-shares-bombshell-post-us-crushes-chinas-cheap-sanctioned-oil-scheme-after-iran-venezuela-1866030",
+            "date": "20260410T084500Z",
+            "dimension": "electoral"
+          }
+        ]
+      },
+      "PSE": {
+        "events": {},
+        "articles": []
+      },
+      "SAU": {
+        "events": {},
+        "articles": []
+      },
+      "ARE": {
+        "events": {},
+        "articles": []
+      },
+      "PRK": {
+        "events": {},
+        "articles": []
+      },
+      "CUB": {
+        "events": {},
+        "articles": []
+      },
+      "VEN": {
+        "events": {
+          "election_integrity": 1
+        },
+        "articles": [
+          {
+            "category": "election_integrity",
+            "title": "Trump Shares Bombshell Post : U . S . Crushes China Cheap Sanctioned Oil Scheme After Iran , Venezuela Moves",
+            "url": "https://www.ibtimes.com.au/trump-shares-bombshell-post-us-crushes-chinas-cheap-sanctioned-oil-scheme-after-iran-venezuela-1866030",
+            "date": "20260410T084500Z",
+            "dimension": "electoral"
+          }
+        ]
+      },
+      "SDN": {
+        "events": {},
+        "articles": []
+      },
+      "MMR": {
+        "events": {},
+        "articles": []
+      },
+      "YEM": {
+        "events": {},
+        "articles": []
+      }
+    },
+    "signals": {
+      "SWE": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "DEU": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "CAN": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "AUS": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "FRA": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "JPN": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "GBR": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "KOR": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "CHL": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "USA": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "ZAF": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "ARG": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "IDN": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "SGP": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "BRA": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "IND": {
+        "electoral": 12,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "MEX": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "POL": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "NGA": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "HUN": {
+        "electoral": 12,
+        "judicial": 0,
+        "media": 24,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "TUR": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "EGY": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "RUS": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 12,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "CHN": {
+        "electoral": 12,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "UKR": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "ISR": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 12,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "IRN": {
+        "electoral": 12,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "PSE": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "SAU": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "ARE": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "PRK": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "CUB": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "VEN": {
+        "electoral": 12,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "SDN": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "MMR": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      },
+      "YEM": {
+        "electoral": 0,
+        "judicial": 0,
+        "media": 0,
+        "civil": 0,
+        "exec_constraints": 0,
+        "conflict_signal": 0
+      }
+    }
+  }
+}

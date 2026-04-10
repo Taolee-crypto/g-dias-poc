@@ -1,0 +1,314 @@
+{
+  "summary": {
+    "total_alerts": 20,
+    "by_severity": {
+      "CRITICAL": 15,
+      "WARNING": 4,
+      "WATCH": 1,
+      "INFO": 0
+    },
+    "countries_alerted": 7,
+    "timestamp": "2026-04-10T15:48:14.838234+00:00"
+  },
+  "alerts": [
+    {
+      "iso3": "USA",
+      "country": "United States",
+      "severity": "WATCH",
+      "alert_type": "DELTA_WATCH",
+      "title": "DSI 하락 추세 감지",
+      "message": "30일간 -3.1pt 하락 — 지속 모니터링 필요",
+      "dsi_current": 71.12969970703125,
+      "dsi_previous": 74.25339784358748,
+      "dsi_delta": -3.1236981365562286,
+      "triggered_dims": [],
+      "timestamp": "2026-04-10T15:48:14.754628+00:00"
+    },
+    {
+      "iso3": "NGA",
+      "country": "Nigeria",
+      "severity": "WARNING",
+      "alert_type": "ABS_WARNING",
+      "title": "민주주의 위험 구간 진입",
+      "message": "DSI 44.3 — 위험 구간 (기준: 45)",
+      "dsi_current": 44.31485366821289,
+      "dsi_previous": 47.078021477980535,
+      "dsi_delta": -2.763167809767644,
+      "triggered_dims": [],
+      "timestamp": "2026-04-10T15:48:14.770889+00:00"
+    },
+    {
+      "iso3": "HUN",
+      "country": "Hungary",
+      "severity": "WARNING",
+      "alert_type": "ABS_WARNING",
+      "title": "민주주의 위험 구간 진입",
+      "message": "DSI 42.9 — 위험 구간 (기준: 45)",
+      "dsi_current": 42.88188552856445,
+      "dsi_previous": 42.59015234428882,
+      "dsi_delta": 0.29173318427563544,
+      "triggered_dims": [],
+      "timestamp": "2026-04-10T15:48:14.773148+00:00"
+    },
+    {
+      "iso3": "TUR",
+      "country": "Turkey",
+      "severity": "WARNING",
+      "alert_type": "ABS_WARNING",
+      "title": "민주주의 위험 구간 진입",
+      "message": "DSI 35.4 — 위험 구간 (기준: 45)",
+      "dsi_current": 35.438499450683594,
+      "dsi_previous": 36.615878208395756,
+      "dsi_delta": -1.1773787577121624,
+      "triggered_dims": [],
+      "timestamp": "2026-04-10T15:48:14.774931+00:00"
+    },
+    {
+      "iso3": "EGY",
+      "country": "Egypt",
+      "severity": "CRITICAL",
+      "alert_type": "ABS_CRITICAL",
+      "title": "민주주의 위기 수준",
+      "message": "DSI 19.6 — 심각한 민주주의 후퇴 구간 (기준: 30)",
+      "dsi_current": 19.619140625,
+      "dsi_previous": 24.931438975606,
+      "dsi_delta": -5.3122983506059995,
+      "triggered_dims": [
+        "electoral",
+        "media"
+      ],
+      "timestamp": "2026-04-10T15:48:14.776359+00:00"
+    },
+    {
+      "iso3": "EGY",
+      "country": "Egypt",
+      "severity": "WARNING",
+      "alert_type": "DELTA_WARNING",
+      "title": "DSI 빠른 하락 추세",
+      "message": "30일간 -5.3pt 하락 감지",
+      "dsi_current": 19.619140625,
+      "dsi_previous": 24.931438975606,
+      "dsi_delta": -5.3122983506059995,
+      "triggered_dims": [],
+      "timestamp": "2026-04-10T15:48:14.776374+00:00"
+    },
+    {
+      "iso3": "EGY",
+      "country": "Egypt",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_ELECTORAL",
+      "title": "선거 무결성 지수 위기",
+      "message": "선거 무결성 점수 17.8 — 심각 임계치(25) 이하",
+      "dsi_current": 19.619140625,
+      "dsi_previous": 24.931438975606,
+      "dsi_delta": -5.3122983506059995,
+      "triggered_dims": [
+        "electoral"
+      ],
+      "timestamp": "2026-04-10T15:48:14.776391+00:00"
+    },
+    {
+      "iso3": "EGY",
+      "country": "Egypt",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_MEDIA",
+      "title": "언론 자유 지수 위기",
+      "message": "언론 자유 점수 12.2 — 심각 임계치(25) 이하",
+      "dsi_current": 19.619140625,
+      "dsi_previous": 24.931438975606,
+      "dsi_delta": -5.3122983506059995,
+      "triggered_dims": [
+        "media"
+      ],
+      "timestamp": "2026-04-10T15:48:14.776405+00:00"
+    },
+    {
+      "iso3": "RUS",
+      "country": "Russia",
+      "severity": "CRITICAL",
+      "alert_type": "ABS_CRITICAL",
+      "title": "민주주의 위기 수준",
+      "message": "DSI 15.7 — 심각한 민주주의 후퇴 구간 (기준: 30)",
+      "dsi_current": 15.686347961425781,
+      "dsi_previous": 16.125124055657224,
+      "dsi_delta": -0.4387760942314429,
+      "triggered_dims": [
+        "electoral",
+        "judicial",
+        "media",
+        "civil",
+        "exec_constraints"
+      ],
+      "timestamp": "2026-04-10T15:48:14.777907+00:00"
+    },
+    {
+      "iso3": "RUS",
+      "country": "Russia",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_ELECTORAL",
+      "title": "선거 무결성 지수 위기",
+      "message": "선거 무결성 점수 13.6 — 심각 임계치(25) 이하",
+      "dsi_current": 15.686347961425781,
+      "dsi_previous": 16.125124055657224,
+      "dsi_delta": -0.4387760942314429,
+      "triggered_dims": [
+        "electoral"
+      ],
+      "timestamp": "2026-04-10T15:48:14.777927+00:00"
+    },
+    {
+      "iso3": "RUS",
+      "country": "Russia",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_JUDICIAL",
+      "title": "사법 독립성 지수 위기",
+      "message": "사법 독립성 점수 18.0 — 심각 임계치(25) 이하",
+      "dsi_current": 15.686347961425781,
+      "dsi_previous": 16.125124055657224,
+      "dsi_delta": -0.4387760942314429,
+      "triggered_dims": [
+        "judicial"
+      ],
+      "timestamp": "2026-04-10T15:48:14.777942+00:00"
+    },
+    {
+      "iso3": "RUS",
+      "country": "Russia",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_MEDIA",
+      "title": "언론 자유 지수 위기",
+      "message": "언론 자유 점수 15.4 — 심각 임계치(25) 이하",
+      "dsi_current": 15.686347961425781,
+      "dsi_previous": 16.125124055657224,
+      "dsi_delta": -0.4387760942314429,
+      "triggered_dims": [
+        "media"
+      ],
+      "timestamp": "2026-04-10T15:48:14.777967+00:00"
+    },
+    {
+      "iso3": "RUS",
+      "country": "Russia",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_CIVIL",
+      "title": "시민사회 지수 위기",
+      "message": "시민사회 점수 19.6 — 심각 임계치(25) 이하",
+      "dsi_current": 15.686347961425781,
+      "dsi_previous": 16.125124055657224,
+      "dsi_delta": -0.4387760942314429,
+      "triggered_dims": [
+        "civil"
+      ],
+      "timestamp": "2026-04-10T15:48:14.777978+00:00"
+    },
+    {
+      "iso3": "RUS",
+      "country": "Russia",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_EXEC_CONSTRAINTS",
+      "title": "행정부 견제 지수 위기",
+      "message": "행정부 견제 점수 24.3 — 심각 임계치(25) 이하",
+      "dsi_current": 15.686347961425781,
+      "dsi_previous": 16.125124055657224,
+      "dsi_delta": -0.4387760942314429,
+      "triggered_dims": [
+        "exec_constraints"
+      ],
+      "timestamp": "2026-04-10T15:48:14.777988+00:00"
+    },
+    {
+      "iso3": "CHN",
+      "country": "China",
+      "severity": "CRITICAL",
+      "alert_type": "ABS_CRITICAL",
+      "title": "민주주의 위기 수준",
+      "message": "DSI 14.8 — 심각한 민주주의 후퇴 구간 (기준: 30)",
+      "dsi_current": 14.764220237731934,
+      "dsi_previous": 12.26727326087358,
+      "dsi_delta": 2.4969469768583537,
+      "triggered_dims": [
+        "electoral",
+        "judicial",
+        "media",
+        "civil",
+        "exec_constraints"
+      ],
+      "timestamp": "2026-04-10T15:48:14.779209+00:00"
+    },
+    {
+      "iso3": "CHN",
+      "country": "China",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_ELECTORAL",
+      "title": "선거 무결성 지수 위기",
+      "message": "선거 무결성 점수 8.4 — 심각 임계치(25) 이하",
+      "dsi_current": 14.764220237731934,
+      "dsi_previous": 12.26727326087358,
+      "dsi_delta": 2.4969469768583537,
+      "triggered_dims": [
+        "electoral"
+      ],
+      "timestamp": "2026-04-10T15:48:14.779227+00:00"
+    },
+    {
+      "iso3": "CHN",
+      "country": "China",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_JUDICIAL",
+      "title": "사법 독립성 지수 위기",
+      "message": "사법 독립성 점수 22.7 — 심각 임계치(25) 이하",
+      "dsi_current": 14.764220237731934,
+      "dsi_previous": 12.26727326087358,
+      "dsi_delta": 2.4969469768583537,
+      "triggered_dims": [
+        "judicial"
+      ],
+      "timestamp": "2026-04-10T15:48:14.779240+00:00"
+    },
+    {
+      "iso3": "CHN",
+      "country": "China",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_MEDIA",
+      "title": "언론 자유 지수 위기",
+      "message": "언론 자유 점수 8.5 — 심각 임계치(25) 이하",
+      "dsi_current": 14.764220237731934,
+      "dsi_previous": 12.26727326087358,
+      "dsi_delta": 2.4969469768583537,
+      "triggered_dims": [
+        "media"
+      ],
+      "timestamp": "2026-04-10T15:48:14.779250+00:00"
+    },
+    {
+      "iso3": "CHN",
+      "country": "China",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_CIVIL",
+      "title": "시민사회 지수 위기",
+      "message": "시민사회 점수 15.5 — 심각 임계치(25) 이하",
+      "dsi_current": 14.764220237731934,
+      "dsi_previous": 12.26727326087358,
+      "dsi_delta": 2.4969469768583537,
+      "triggered_dims": [
+        "civil"
+      ],
+      "timestamp": "2026-04-10T15:48:14.779260+00:00"
+    },
+    {
+      "iso3": "CHN",
+      "country": "China",
+      "severity": "CRITICAL",
+      "alert_type": "DIM_CRITICAL_EXEC_CONSTRAINTS",
+      "title": "행정부 견제 지수 위기",
+      "message": "행정부 견제 점수 15.0 — 심각 임계치(25) 이하",
+      "dsi_current": 14.764220237731934,
+      "dsi_previous": 12.26727326087358,
+      "dsi_delta": 2.4969469768583537,
+      "triggered_dims": [
+        "exec_constraints"
+      ],
+      "timestamp": "2026-04-10T15:48:14.779269+00:00"
+    }
+  ]
+}
